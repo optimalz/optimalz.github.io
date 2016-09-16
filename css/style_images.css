@@ -1,0 +1,56 @@
+/**
+ * http://www.lawebdelprogramador.com
+ */
+
+/*Estilo para el listado de imagenes*/
+#listimages img {width:100px;height:100px;}
+
+/*Estilo para el fondo de pantalla cuando estamos mostrando la imagen grande*/
+#background {
+    display:none;
+    position: absolute;
+    top:0px;left:0px;width:100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    background-color: #000;
+    z-index: 1;
+}
+
+/*Estilo para la capa que contendra la imagen grande y la cruz de cerrar*/
+#preview {
+    display: none;
+    position: absolute;
+    width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    border: 1px solid #D8D7D8;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px #DDD;
+    z-index: 2;
+}
+
+/*Estilo para el contenedor de la imagen grande*/
+#contenedor {
+    width:100%;
+    height:100%;
+}
+
+#contenedor img{
+   max-width: 100%;
+  
+}
+/*Estilo para el boton cerrar*/
+#close {
+    position: absolute;
+    border:0px solid;
+    width:16px;
+    height:16px;
+    right:2px;
+    top:2px;
+    background:url('../images/close.png');
+}
+
+.url {text-align:center;margin-top:20px;}
