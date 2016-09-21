@@ -78,8 +78,8 @@ html[xmlns] .flexslider .slides {
 .flexslider {
   max-height: 100%;
   margin: 0 0 60px;
-  background: #fff;
-  border: 4px solid #fff;
+  background: #202b43;
+  border: 4px solid #202b43;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -127,7 +127,8 @@ html[xmlns] .flexslider .slides {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
+  color: #0284ae;
+  
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -140,7 +141,7 @@ html[xmlns] .flexslider .slides {
   font-size: 40px;
   display: inline-block;
   content: '\f001';
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
@@ -214,8 +215,8 @@ html[xmlns] .flexslider .slides {
   width: 11px;
   height: 11px;
   display: block;
-  background: #666;
-  background: rgba(0, 0, 0, 0.5);
+  
+  background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   text-indent: -9999px;
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
@@ -227,12 +228,12 @@ html[xmlns] .flexslider .slides {
   border-radius: 20px;
 }
 .flex-control-paging li a:hover {
-  background: #333;
-  background: rgba(0, 0, 0, 0.7);
+ 
+  background: rgba(255, 255, 255, 0.7);
 }
 .flex-control-paging li a.flex-active {
-  background: #000;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   cursor: default;
 }
 .flex-control-thumbs {
