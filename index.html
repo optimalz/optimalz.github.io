@@ -271,7 +271,7 @@ var page = 2;
 $(window).scroll(function() {
     if ($(window).scrollTop() == $(document).height() - $(window).height()) {
       console.log(++page);
-      $.get("http://2.html", function(data){
+      $.get("2.html", function(data){
            $("#appendToThis").html(data);
             });
     
