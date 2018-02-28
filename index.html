@@ -266,12 +266,12 @@
 
 
 <script type="text/javascript">
-var page = 2;
+var page = 1;
 
 $(window).scroll(function() {
     if ($(window).scrollTop() == $(document).height() - $(window).height()) {
       console.log(++page);
-      $.get("2.html", function(data){
+      $.get("page/"+page+".html" , function(data){
            $("#appendToThis").append(data);
             });
     
