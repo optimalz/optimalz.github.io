@@ -273,6 +273,9 @@ $(window).scroll(function() {
       console.log(++page);
       $.get("page/"+page+".html" , function(data){
            $("#appendToThis").append(data);
+             $('.flexslider').flexslider({
+            animation: "slide"
+            });
             });
     
       
