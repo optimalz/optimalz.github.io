@@ -37,7 +37,7 @@ GENERAL CLASS
 .floatRight{float:right;}
 .floatLeft{float:left;}
 .clear{clear:both;}
-.row{ width:970px; margin:0 auto; overflow:hidden; }
+.row1{ width:970px; margin:0 auto; overflow:hidden; }
 .page{width:970px; background:#1c263c; margin:0 auto;}
 .wrapper{background:#1c263c; margin:0 auto; width:970px;}
 .panel{ overflow:hidden;}
@@ -52,10 +52,10 @@ GENERAL CLASS
 SOCIAL NETWORKING CLASSES
 -------------------------------------------------*/
 .social-wrapper{ background:#1c263c; height:55px; padding-top:25px;}
-.social-wrapper .row{}
-.social-wrapper .row ul{width:300px; float:right; list-style:none;}
-.social-wrapper .row ul li{float:right; padding-right:10px;}
-.social-wrapper .row ul li.no-padding{float:right; padding-right:0px;}
+.social-wrapper .row1{}
+.social-wrapper .row1 ul{width:300px; float:right; list-style:none;}
+.social-wrapper .row1 ul li{float:right; padding-right:10px;}
+.social-wrapper .row1 ul li.no-padding{float:right; padding-right:0px;}
 /*-------------------------------------------------
 MENU  CLASSES
 -------------------------------------------------*/
@@ -71,7 +71,7 @@ MENU  CLASSES
 BANNER  CLASSES
 -------------------------------------------------*/
 .banner-wrapper{width:970px; margin:0 auto;}
-.banner-wrapper .row{background:#1c263c;}
+.banner-wrapper .row1{background:#1c263c;}
 .banner-wrapper .controller{padding-top:30px; padding-bottom:30px; float:right;}
 .banner-wrapper .controller ul li{padding-right:10px; float:left; list-style:none;}
 .banner-wrapper .banner{width:970px; margin:0 auto;}
@@ -149,7 +149,7 @@ RIGHT-PANEL CLASSES
 .address .panel .title h1 {  color:#68b5ce; padding-bottom:10px;}
 .address .panel .content p{color:#91a3c2;}
 .address .panel .content p span { color:#91a3c2;}
-
+.container{height: 100vh;}
 
 /*-------------------------------------------------
 PORTFOLIO CLASSES
