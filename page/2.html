@@ -1,4 +1,16 @@
- <div class="container">
+  <link href="/flexslider/css/font.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/css/base.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/css/mixins.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/css/responsive.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/css/variables.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/css/theme.less" rel="stylesheet" type="text/css">
+<link href="/flexslider/flexslider.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+<div class="container">
 
 <article class="post">
         <div class="panel">
@@ -14,7 +26,7 @@ After that a large and delicious buffet was offered for dinner. The evening was 
 In this sense, we want to wish everybody a merry Christmas and a happy new year.</p>
 
           <br>
-          <div id="november15" align="center" style="height:350px; width: 500px;">
+          <div id="november15" class="flexslider" align="center" style="height:350px; width: 500px;">
           <ul class="slides">
              <li>
       <img src="\content_news\2015_12_23_Christmas Party\DSC0003.JPG" />
@@ -30,7 +42,6 @@ In this sense, we want to wish everybody a merry Christmas and a happy new year.
     </li>
 
           </ul>
-
          </div>
       </div>
 </div>
@@ -40,7 +51,21 @@ In this sense, we want to wish everybody a merry Christmas and a happy new year.
 
 
 
-<!-- ///////////////////////////////////////// -->
-       
-      <div class="clear"></div>
+  <div class="clear"></div>
 </div>
+
+
+
+<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+
+<script defer src="/flexslider/jquery.flexslider.js"></script>
+
+ <script type="text/javascript">
+ $(function(){
+   $(window).load(function() {
+   $('.flexslider').flexslider({
+   animation: "slide"
+   });
+   });
+ });
+</script>
