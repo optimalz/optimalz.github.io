@@ -250,11 +250,11 @@
 
 
         <script type="text/javascript">
-          var page = 1;
+          var page = 25;
 
           $(window).scroll(function() {
             if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-              console.log(++page);
+              console.log(--page);
               $.get("page/"+page+".html" , function(data){
                $("#appendToThis").append(data);
 
