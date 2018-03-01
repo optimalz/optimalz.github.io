@@ -19,13 +19,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="css/style_images.css" rel="stylesheet" type="text/css">
-<link href="flexslider/css/font.less" rel="stylesheet" type="text/css">
-<link href="flexslider/css/base.less" rel="stylesheet" type="text/css">
-<link href="flexslider/css/mixins.less" rel="stylesheet" type="text/css">
-<link href="flexslider/css/responsive.less" rel="stylesheet" type="text/css">
-<link href="flexslider/css/variables.less" rel="stylesheet" type="text/css">
-<link href="flexslider/css/theme.less" rel="stylesheet" type="text/css">
-<link href="flexslider/flexslider.css" rel="stylesheet" type="text/css">
+
 <link href="js/jsImgSlider/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
     <script src="js/jsImgSlider/themes/1/js-image-slider.js" type="text/javascript"></script>
 
@@ -41,8 +35,8 @@
 <script type="text/javascript" src="js/javascript_images.js"></script>
 <script type="text/javascript" src="js/button_up.js"></script>
 <script src="js/autoScrollTo.js"></script>
-<script src="js/jquery.endless-scroll.js"></script>
-<script src="flexslider/jquery.flexslider.js"></script>
+
+
 <script src="js/infinite-scroll.pkgd.min.js"></script>
 <script type='text/JavaScript'>
      function verocultar(cual) {
@@ -58,8 +52,8 @@
 
 
 
-<script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
-<script type="text/javascript" src="js/manual-trigger.js"></script>
+
+
 
 
 </head>
@@ -273,9 +267,7 @@ $(window).scroll(function() {
       console.log(++page);
       $.get("page/"+page+".html" , function(data){
            $("#appendToThis").append(data);
-             $('.flexslider').flexslider({
-            animation: "slide"
-            });
+            
             });
     
       
