@@ -272,7 +272,7 @@ $(window).scroll(function() {
     if ($(window).scrollTop() == $(document).height() - $(window).height()) {
       console.log(++page);
       $.get("page/"+page+".html" , function(data){
-           $($("#appendToThis")[div]).append(data);
+           $("#appendToThis".html(data);
             });
     
       
